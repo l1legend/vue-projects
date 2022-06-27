@@ -1,6 +1,6 @@
 <template>
 <button type="button" @click="flag = !flag">Toggle</button>
-<transition name="fade">
+<transition name="fade" duration="5000">
 <h2 v-if="flag">Hello world!</h2>
 </transition>
 </template>
